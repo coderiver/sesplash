@@ -41,9 +41,78 @@
 // 	font-family: "book",arial,sans-serif 
 	
 body
-	font-size: 12px 
-	font-family: Arial, sans-serif 
-	line-height: 1.4
+	min-width: 1000px
+	font-size: 14px 
+	font-family: 'GillSansCRegular', Arial, sans-serif 
+	line-height: 1.2
+	color: #666
+	background: url(../img/bg.jpg) 0 0 no-repeat
+	
 
 
 // common blocks
+
+.out
+	width: 1000px
+	margin: 0 auto
+.topper
+	+clr
+.logo	
+	float: left
+	width: 50%
+	padding-top: 24px
+	a
+		display: block
+		+s(logo)	 	  
+.topper__link
+	float: left
+	width: 50% 
+	a
+		display: inline-block
+		padding: 63px 18px 20px 
+		text-decoration: none
+		color: #666
+		font-family: 'GillSansLightCRegular', Arial, sans-serif
+		font-size: 49px
+		line-height: 1
+.apps
+	margin-top: -221px
+.reality
+	margin-top: -51px
+.bussiness
+	margin-top: -171px				
+.it
+	margin-top: -62px
+.content
+	padding: 0 20px 65px 	
+.h2
+	margin-bottom: 20px
+	font-family: 'GillSansLightCRegular', Arial, sans-serif
+	font-size: 32px
+.article
+	p
+		margin-bottom: 30px
+.footer
+	+clr
+	padding: 0 20px 
+	margin-bottom: 33px
+	.logo
+		float: right
+		width: auto
+		margin-left: 25px
+		a
+			+s(logo-small)
+.footer__left
+	float: left
+	padding-top: 70px
+.footer__right
+	float: right
+	padding-top: 70px
+.footer__link
+	text-decoration: none
+	font-family: 'GillSansLightCRegular', Arial, sans-serif
+	font-size: 20px
+	color: #666
+	&:hover
+		text-decoration: underline	
+						

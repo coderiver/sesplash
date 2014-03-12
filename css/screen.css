@@ -1,4 +1,8 @@
 /*done by Coderiver.com.ua */
+@font-face { font-family: "GillSansCRegular"; src: url("../fonts/gillsansc_0.eot"); src: url("../fonts/gillsansc_0.eot") format("embedded-opentype"), url("../fonts/gillsansc_0.woff") format("woff"), url("../fonts/gillsansc_0.ttf") format("truetype"); }
+
+@font-face { font-family: "GillSansLightCRegular"; src: url("../fonts/gillsanslightc_0.eot"); src: url("../fonts/gillsanslightc_0.eot") format("embedded-opentype"), url("../fonts/gillsanslightc_0.woff") format("woff"), url("../fonts/gillsanslightc_0.ttf") format("truetype"); }
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
 
 body, html { height: 100%; }
@@ -19,7 +23,44 @@ ul, ol { list-style-type: none; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
 table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
-body { font-size: 12px; font-family: Arial, sans-serif; line-height: 1.4; }
+body { min-width: 1000px; font-size: 14px; font-family: "GillSansCRegular", Arial, sans-serif; line-height: 1.2; color: #666666; background: url(../img/bg.jpg) 0 0 no-repeat; }
+
+.out { width: 1000px; margin: 0 auto; }
+
+.topper { *zoom: 1; }
+.topper:after { content: " "; display: table; clear: both; }
+
+.logo { float: left; width: 50%; padding-top: 24px; }
+.logo a { display: block; background: url('../img/icons-s820015e6d9.png') 0 0 no-repeat; width: 153px; height: 137px; }
+
+.topper__link { float: left; width: 50%; }
+.topper__link a { display: inline-block; padding: 63px 18px 20px; text-decoration: none; color: #666666; font-family: "GillSansLightCRegular", Arial, sans-serif; font-size: 49px; line-height: 1; }
+
+.apps { margin-top: -221px; }
+
+.reality { margin-top: -51px; }
+
+.bussiness { margin-top: -171px; }
+
+.it { margin-top: -62px; }
+
+.content { padding: 0 20px 65px; }
+
+.h2 { margin-bottom: 20px; font-family: "GillSansLightCRegular", Arial, sans-serif; font-size: 32px; }
+
+.article p { margin-bottom: 30px; }
+
+.footer { *zoom: 1; padding: 0 20px; margin-bottom: 33px; }
+.footer:after { content: " "; display: table; clear: both; }
+.footer .logo { float: right; width: auto; margin-left: 25px; }
+.footer .logo a { background: url('../img/icons-s820015e6d9.png') 0 -147px no-repeat; width: 103px; height: 92px; }
+
+.footer__left { float: left; padding-top: 70px; }
+
+.footer__right { float: right; padding-top: 70px; }
+
+.footer__link { text-decoration: none; font-family: "GillSansLightCRegular", Arial, sans-serif; font-size: 20px; color: #666666; }
+.footer__link:hover { text-decoration: underline; }
 
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }
