@@ -23,14 +23,14 @@ ul, ol { list-style-type: none; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
 table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
-body { min-width: 1000px; font-size: 14px; font-family: "GillSansCRegular", Arial, sans-serif; line-height: 1.2; color: #666666; background: url(../img/bg.jpg) 0 0 no-repeat; }
+body { min-width: 1000px; font-size: 14px; font-family: "GillSansCRegular", Arial, sans-serif; line-height: 1.2; color: #666666; background: url(../img/bg.jpg) 49.5% 0 no-repeat; }
 
 .out { width: 1000px; margin: 0 auto; }
 
 .topper { *zoom: 1; }
 .topper:after { content: " "; display: table; clear: both; }
 
-.logo { float: left; width: 50%; padding-top: 24px; }
+.logo { float: left; width: 50%; padding-top: 24px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding-left: 13px; }
 .logo a { display: block; background: url('../img/icons-s820015e6d9.png') 0 0 no-repeat; width: 153px; height: 137px; }
 
 .topper__link { float: left; width: 50%; }
