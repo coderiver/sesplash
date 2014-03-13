@@ -48,16 +48,16 @@ body { min-width: 1000px; font-size: 14px; font-family: "GillSansCRegular", Aria
 
 .h2 { margin-bottom: 20px; font-family: "GillSansLightCRegular", Arial, sans-serif; font-size: 32px; }
 
-.article p { margin-bottom: 30px; }
+.article p { text-align: justify; margin-bottom: 30px; }
 
-.footer { *zoom: 1; padding: 0 20px; margin-bottom: 33px; }
+.footer { *zoom: 1; padding: 33px 70px 50px 40px; margin: 0 -50px 0 -20px; background: url(../img/bg-footer.jpg) 20px 0 no-repeat; }
 .footer:after { content: " "; display: table; clear: both; }
-.footer .logo { float: right; width: auto; margin-left: 25px; }
+.footer .logo { float: right; width: auto; margin-left: 25px; padding-top: 0; }
 .footer .logo a { background: url('../img/icons-s820015e6d9.png') 0 -147px no-repeat; width: 103px; height: 92px; }
 
-.footer__left { float: left; padding-top: 70px; }
+.footer__left { float: left; padding-top: 50px; }
 
-.footer__right { float: right; padding-top: 70px; }
+.footer__right { float: right; padding-top: 50px; }
 
 .footer__link { text-decoration: none; font-family: "GillSansLightCRegular", Arial, sans-serif; font-size: 20px; color: #666666; }
 .footer__link:hover { text-decoration: underline; }
